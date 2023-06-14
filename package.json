@@ -1,0 +1,15 @@
+{
+  "name": "prefai",
+  "version": "0.0.4",
+  "description": "A client library for interacting with the Pref.ai API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["fastapi", "client"],
+  "author": "Bobby Jaros <bobby@pref.ai>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
