@@ -34,7 +34,8 @@ class PrefAI {
 
     this.client = axios.create({
       baseURL,
-      timeout: 3000,
+      // Longer timeout needed for Cloud Run coldstart.
+      timeout: 10000,
       headers: {
         'Authorization': `Bearer ${this.apiKey}`
       },

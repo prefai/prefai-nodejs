@@ -1,6 +1,6 @@
 {
   "name": "prefai",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A client library for interacting with the Pref.ai API.",
   "main": "index.js",
   "scripts": {
